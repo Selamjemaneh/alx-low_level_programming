@@ -1,0 +1,18 @@
+#include<stdio.h>
+
+/**
+ * main -prints all single digit numbers of base 10 starting from 0,
+ * followed by a new line,not allowed to use any variable of type char
+ * Return: Always 0 (Success)
+*/
+int main(void)
+{
+	int a;
+
+	for (a = 48; a <i= 57; a++)
+	{
+		putchar(a);
+	}
+		putchar('\n');
+	return (0);
+}
