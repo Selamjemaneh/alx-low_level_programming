@@ -7,20 +7,21 @@
  */
 int main(void)
 {
-	int a, b, c;
+	int c, i, k;
 
-	for (a = 48; a < 58; a++)
+	for (c = '0'; c <= '9'; c++)
 	{
-		for (b = 49; b < 58; b++)
+		for (i = '0'; i <= '9'; i++)
 		{
-			for (c = 50; c < 58; c++)
+			for (k = '0'; k <= '9'; k++)
 			{
-				if (c > a && b > a)
+				if (c < i && i < k)
 				{
-					putchar(a);
-					putchar(b);
 					putchar(c);
-					if (a != 55 || b != 56)
+					putchar(i);
+					putchar(k);
+
+					if (c != '7')
 					{
 						putchar(',');
 						putchar(' ');
